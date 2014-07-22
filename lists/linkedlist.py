@@ -13,7 +13,7 @@ class LinkedList(object):
         """ Node of linked list """
         
 
-        __slots__ = ['value', 'follower']
+        __slots__ = ['value', 'next']
 
 
         def __init__(self, value, follower):
